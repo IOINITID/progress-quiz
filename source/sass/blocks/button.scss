@@ -1,0 +1,14 @@
+.button {
+  font-family: $font-default;
+  font-style: inherit;
+  font-weight: 500;
+  font-size: 16rem;
+  line-height: 24rem;
+  color: $text-additional;
+  background: $button-default;
+  border-radius: 4rem;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  padding: 18rem 34rem 18rem 33rem;
+}

@@ -1,0 +1,59 @@
+.first {
+  display: flex;
+}
+
+.first__background {
+  background: #000000;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  max-width: 773rem;
+  width: 100%;
+  height: 650rem;
+}
+
+.first__background--automatic {
+  background: url("../../img/block-one-background.jpg");
+}
+
+.first__info {
+  padding: 78rem 30rem;
+}
+
+.first__info--automatic {
+  background: url("../../img/gift.png");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+
+.first__logo {
+  margin: 0;
+  margin-bottom: 56rem;
+}
+
+.first__title {
+  font-family: $font-default;
+  font-style: inherit;
+  font-weight: 700;
+  font-size: 24rem;
+  line-height: 30rem;
+  color: $text-default;
+  margin: 0;
+  margin-bottom: 13rem;
+}
+
+.first__description {
+  font-family: $font-default;
+  font-style: inherit;
+  font-weight: 400;
+  font-size: 16rem;
+  line-height: 24rem;
+  color: $text-description;
+  margin: 0;
+  margin-bottom: 41rem;
+}
+
+.first__link {
+  // width: 250rem;
+  // height: 60rem;
+}
