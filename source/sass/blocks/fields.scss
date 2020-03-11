@@ -1,0 +1,17 @@
+.fields {
+  position: relative;
+}
+
+.fields__list {
+  @include list-reset;
+  display: flex;
+  overflow: scroll;
+}
+
+.fields__item {
+margin-right: 30rem;
+}
+
+.fields__item:last-child {
+  margin-right: 0;
+}

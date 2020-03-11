@@ -1,0 +1,104 @@
+.second {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.second__questions {
+  max-width: 962rem;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.second__qustions-title {
+  width: 100%;
+  min-height: 50rem;
+  border-bottom: 1rem solid #e2e2e2;
+  display: flex;
+  align-items: center;
+}
+
+.second__questions-logo {
+  width: 26rem;
+  height: 24rem;
+  margin-left: 50rem;
+  margin-right: 16rem;
+}
+
+.second__questions-description {
+  font-family: $font-default;
+  font-style: inherit;
+  font-weight: 400;
+  font-size: 16re, ;
+  line-height: 30rem;
+  color: $text-description;
+  margin: 0;
+}
+
+
+
+.second__info {
+  background: #f4f4f4 url("../../img/gift-small.png");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  max-width: 238rem;
+  width: 100%;
+  height: 100%;
+  padding: 26rem 12rem;
+}
+
+.second__info-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 7rem;
+}
+
+.second__info-image {
+  margin-right: 14rem;
+}
+
+.second__info-person {
+  display: flex;
+  flex-direction: column;
+}
+
+.second__info-name {
+  font-family: $font-default;
+  font-style: inherit;
+  font-weight: 500;
+  font-size: 14rem;
+  color: $text-default;
+}
+
+.second__info-position {
+  font-family: $font-default;
+  font-style: inherit;
+  font-weight: 400;
+  font-size: 12rem;
+  color: $text-description;
+  margin: 0;
+}
+
+.second__message {
+  background: url("../../img/icon-message.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  width: 194rem;
+  height: 108rem;
+  padding: 22rem 11rem 14rem 11rem;
+}
+
+.second__message-text {
+  font-family: $font-default;
+  font-style: inherit;
+  font-weight: 400;
+  font-size: 12rem;
+  line-height: 18rem;
+  color: $text-default;
+  margin: 0;
+}
