@@ -9,9 +9,43 @@
 }
 
 .fields__item {
-margin-right: 30rem;
+  margin-right: 30rem;
 }
 
 .fields__item:last-child {
   margin-right: 0;
+}
+
+.fields--small .fields__list {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.fields--small .fields__item {
+  margin-bottom: 30rem;
+}
+
+.fields--small .fields__item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.fields--small .card {
+  width: 270rem;
+}
+
+.fields--small .card__name {
+  height: 50rem;
+}
+
+.fields--small .card__title {
+  padding: 0;
+}
+
+.fields--small .card__check {
+  top: 13rem;
+  right: 12rem;
+}
+
+.fields--small .slider {
+  display: none;
 }
