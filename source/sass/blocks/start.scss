@@ -13,14 +13,15 @@
 }
 
 .start__background--automatic {
-  background: url("../../img/block-one-background.jpg");
+  background: url("../../img/automatic-background.jpg");
+}
+
+.start__background--gates {
+  background: url("../../img/gates-background.jpg");
 }
 
 .start__info {
   padding: 78rem 30rem;
-}
-
-.start__info--automatic {
   background: url("../../img/gift.png");
   background-repeat: no-repeat;
   background-position: 100% 100%;

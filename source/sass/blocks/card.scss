@@ -18,7 +18,7 @@
   width: 270rem;
   height: 230rem;
   border-bottom: 1rem solid #e2e2e2;
-  object-fit: none;
+  object-fit: cover;
 }
 
 .card__name {
@@ -59,4 +59,40 @@
   width: 16rem;
   height: 13rem;
   display: flex;
+}
+
+.card__name--brown {
+  background: $background-brown;
+}
+
+.card__name--brown .card__title {
+  color: $text-additional;
+}
+
+.card__name--green {
+  background: $background-green;
+}
+
+.card__name--beige {
+  background: $background-beige;
+}
+
+.card__name--red {
+  background: $background-red;
+}
+
+.card__name--white {
+  background: $background-white;
+}
+
+.card__name--blue {
+  background: $background-blue;
+}
+
+.card__name--blue .card__title {
+  color: $text-additional;
+}
+
+.card__name--graphite {
+  background: $background-graphite;
 }
