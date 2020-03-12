@@ -105,3 +105,11 @@
 .fields--color .fields__list {
   justify-content: unset;
 }
+
+.fields--center .fields__list {
+  align-items: center;
+}
+
+.fields--center .fields__item {
+  margin-bottom: 0;
+}
