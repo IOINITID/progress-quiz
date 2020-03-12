@@ -1,0 +1,154 @@
+.contacts {
+  padding: 46rem 30rem 44rem 30rem;
+}
+
+.contacts__title {
+  font-family: $font-default;
+  font-style: inherit;
+  font-weight: 500;
+  font-size: 12rem;
+  line-height: 24rem;
+  color: #8a8a8a;
+  margin: 0;
+  margin-bottom: 6rem;
+}
+
+.contacts__label {
+  max-width: 347rem;
+  width: 100%;
+  height: 50rem;
+  margin-bottom: 37rem;
+  display: block;
+}
+
+.contacts__tel {
+  max-width: 347rem;
+  width: 100%;
+  height: 50rem;
+  background: #f4f4f4;
+  border: 1rem solid #e2e2e2;
+  border-radius: 4rem;
+  padding: 13rem 20rem;
+  text-align: center;
+}
+
+.contacts__list {
+  @include list-reset;
+}
+
+.contacts__item {
+  width: 347px;
+  height: 50px;
+  background: #FFFFFF;
+  border: 1px solid #E2E2E2;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-bottom: 20rem;
+}
+
+.contacts__item:last-child {
+  margin-bottom: 37rem;
+}
+
+.contacts__link {
+  width: 100%;
+  height: 100%;
+  font-family: $font-default;
+  font-style: inherit;
+  font-weight: 400;
+  font-size: 16rem;
+  line-height: 24rem;
+  color: #636363;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.contacts__button {
+  max-width: 347rem;
+  width: 100%;
+  height: 60px;
+  margin-bottom: 20rem;
+}
+
+.contacts__agreement {
+  display: flex;
+}
+
+.contacts__agreement-label {
+  width: 16rem;
+  height: 16rem;
+  margin-right: 12rem;
+  display: flex;
+}
+
+.contacts__agreement-check {
+  width: 16rem;
+  height: 16rem;
+  background: #ffffff;
+  border: 1rem solid #e2e2e2;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.contacts__agreement-icon {
+  display: none;
+}
+
+.contacts__agreement-text {
+  max-width: 208rem;
+  font-family: $font-default;
+  font-style: inherit;
+  font-weight: 400;
+  font-size: 12rem;
+  line-height: 18rem;
+  color: $text-default;
+  margin: 0;
+}
+
+.contacts__agreement-link {
+  text-decoration: underline;
+  color: #3491ff;
+}
+
+.contacts__agreement-checkbox:checked+.contacts__agreement-check .contacts__agreement-icon {
+  width: 12rem;
+  height: 9rem;
+  display: flex;
+}
+
+.contacts__link--whatsapp:hover,
+.contacts__link--whatsapp:focus,
+.contacts__link--whatsapp:active {
+  background: $background-whatsapp;
+  color: $text-additional;
+  border-radius: 2rem;
+}
+
+.contacts__link--telegram:hover,
+.contacts__link--telegram:focus,
+.contacts__link--telegram:active {
+  background: $background-telegram;
+  color: $text-additional;
+  border-radius: 2rem;
+}
+
+.contacts__link--sms:hover,
+.contacts__link--sms:focus,
+.contacts__link--sms:active {
+  background: $background-sms;
+  color: $text-additional;
+  border-radius: 2rem;
+}
+
+.contacts__link--recall:hover,
+.contacts__link--recall:focus,
+.contacts__link--recall:active {
+  background: $background-recall;
+  color: $text-additional;
+  border-radius: 2rem;
+}

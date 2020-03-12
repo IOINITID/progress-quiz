@@ -1,0 +1,35 @@
+.complete {
+  display: flex;
+}
+
+.complete__background {
+  background: #f4f4f4 url("../../img/gift-complete.png");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  max-width: 773rem;
+  width: 100%;
+  height: 650rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.complete__title {
+  max-width: 373rem;
+  font-family: $font-default;
+  font-style: inherit;
+  font-weight: 700;
+  font-size: 24rem;
+  line-height: 30rem;
+  color: $text-default;
+  margin: 0;
+}
+
+.complete__arrow {
+  width: 61rem;
+  height: 44rem;
+  position: absolute;
+  top: 347rem;
+  right: 29rem;
+}
