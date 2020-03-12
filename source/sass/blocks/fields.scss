@@ -49,3 +49,55 @@
 .fields--small .slider {
   display: none;
 }
+
+.fields--image .card {
+  width: 270rem;
+}
+
+.fields--image .card__title {
+  padding: 0;
+}
+
+.fields--image .card__name {
+  height: 90rem;
+}
+
+.fields--image .card__check {
+  top: 13rem;
+  right: 12rem;
+}
+
+.fields--image .slider {
+  display: none;
+}
+
+.fields--image .fields__list {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.fields--image .fields__item {
+  margin-bottom: 30rem;
+}
+
+.fields--image .fields__item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.fields--image .fields__item:last-child {
+  margin-bottom: 0;
+}
+
+.fields--column .fields__list {
+  flex-direction: column;
+  align-items: center;
+}
+
+.fields--column .fields__item {
+  margin-right: 0;
+}
+
+.fields--column .card__name {
+  padding: 10rem 16rem;
+  justify-content: flex-start;
+}

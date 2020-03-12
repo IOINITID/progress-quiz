@@ -14,9 +14,11 @@
 }
 
 .card__image {
-  min-width: 270rem;
+  min-width: 268rem;
   width: 270rem;
   height: 230rem;
+  border-bottom: 1rem solid #e2e2e2;
+  object-fit: none;
 }
 
 .card__name {
@@ -25,11 +27,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 4rem;
 }
 
 .card__title {
-  padding: 20rem 87rem;
+  // padding: 20rem 87rem;
+  padding: 20rem;
   margin: 0;
+  font-weight: 500;
 }
 
 .card__check {

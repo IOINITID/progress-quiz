@@ -1,7 +1,7 @@
 .content {
   width: 100%;
   height: 100%;
-  padding: 32rem 42rem 32rem 50rem;
+  padding: 32rem 42rem 10rem 50rem;
 }
 
 .content__wrapper {
@@ -27,11 +27,15 @@
   line-height: 24rem;
   color: #8f7e7e;
   margin: 0;
-
   padding: 2rem 13rem;
   width: max-content;
   background: #e8dfdf;
   border-radius: 4rem;
   display: flex;
   align-items: center;
+}
+
+.content__info--all {
+  background: #e3e8df;
+  color: #848f7e;
 }
