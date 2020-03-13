@@ -114,3 +114,7 @@
 .fields--center .fields__item {
   margin-bottom: 0;
 }
+
+.fields--start .fields__list {
+  justify-content: flex-start;
+}
