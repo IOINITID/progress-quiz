@@ -118,3 +118,31 @@
 .fields--start .fields__list {
   justify-content: flex-start;
 }
+
+.fields--long .card {
+  max-width: 308rem;
+  width: 308rem;
+}
+
+.fields--long .fields__item:nth-child(3n) {
+  margin-right: 30rem;
+}
+
+.fields--long .fields__item {
+  margin-right: 30rem;
+}
+
+.fields--long .fields__item:nth-child(2n) {
+  margin-right: 0;
+}
+
+.fields--long .card__name {
+  justify-content: flex-start;
+}
+
+.fields--long .card__title {
+  padding: 20rem;
+  width: 100%;
+  left: 100%;
+  text-align: left;
+}
