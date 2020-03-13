@@ -146,3 +146,25 @@
   left: 100%;
   text-align: left;
 }
+
+.fields--longer .card {
+  max-width: 372rem;
+  width: 372rem;
+}
+
+.fields--longer .fields__item {
+  margin: 0;
+  margin-bottom: 30rem;
+}
+
+.fields--long .fields__item:nth-child(2n) {
+  margin-right: 0;
+}
+
+.fields--long .fields__item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.fields--longer .card__title {
+  padding: 0;
+}
