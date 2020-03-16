@@ -2,10 +2,10 @@
   background: #f4f4f4 url("../../img/gift-small.png");
   background-repeat: no-repeat;
   background-position: 100% 100%;
-  max-width: 238rem;
-  width: 100%;
+  width: 238rem;
   height: 100%;
   padding: 26rem 12rem;
+  background-size: 184rem 171rem;
 }
 
 .info__wrapper {
@@ -15,6 +15,8 @@
 }
 
 .info__image {
+  width: 50rem;
+  height: 50rem;
   margin-right: 14rem;
 }
 

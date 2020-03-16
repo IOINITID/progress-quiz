@@ -72,7 +72,10 @@
   margin-right: 25rem;
 }
 
-.controls__prev-icon {}
+.controls__prev-icon {
+  width: 13rem;
+  height: 22rem;
+}
 
 .controls__next {
   display: flex;
@@ -82,5 +85,7 @@
 }
 
 .controls__next-icon {
+  width: 13rem;
+  height: 22rem;
   margin-left: 13rem;
 }
