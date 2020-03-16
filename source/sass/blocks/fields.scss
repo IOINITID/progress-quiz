@@ -5,7 +5,8 @@
 .fields__list {
   @include list-reset;
   display: flex;
-  overflow: scroll;
+  overflow: hidden;
+  scroll-behavior: smooth;
 }
 
 .fields__item {
@@ -163,6 +164,10 @@
 
 .fields--long .fields__item:nth-child(3n) {
   margin-right: 0;
+}
+
+.fields--long .fields__item:nth-child(1n) {
+  margin-right: 30rem;
 }
 
 .fields--longer .card__title {

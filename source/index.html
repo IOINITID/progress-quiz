@@ -199,11 +199,11 @@
 
             <div class="content__fields fields">
 
-              <ul class="fields__list">
+              <ul class="fields__list fields__list--scroll">
                 <li class="fields__item">
                   <label class="fields__card card" for="automatic-type-one-field">
                     <input class="card__checkbox visually-hidden" type="radio" name="automatic-type"
-                      id="automatic-type-one-field">
+                      id="automatic-type-one-field" value="Распашные">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -222,7 +222,7 @@
                 <li class="fields__item">
                   <label class="fields__card card" for="automatic-type-two-field">
                     <input class="card__checkbox visually-hidden" type="radio" name="automatic-type"
-                      id="automatic-type-two-field">
+                      id="automatic-type-two-field" value="Откатные">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -241,7 +241,7 @@
                 <li class="fields__item">
                   <label class="fields__card card" for="automatic-type-three-field">
                     <input class="card__checkbox visually-hidden" type="radio" name="automatic-type"
-                      id="automatic-type-three-field">
+                      id="automatic-type-three-field" value="Секционные">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -377,7 +377,7 @@
                 <li class="fields__item">
                   <label class="fields__card card" for="automatic-size-one-field">
                     <input class="card__checkbox visually-hidden" type="radio" name="automatic-size"
-                      id="automatic-size-one-field">
+                      id="automatic-size-one-field" value="До 2 х 2">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -396,7 +396,7 @@
                 <li class="fields__item">
                   <label class="fields__card card" for="automatic-size-two-field">
                     <input class="card__checkbox visually-hidden" type="radio" name="automatic-size"
-                      id="automatic-size-two-field">
+                      id="automatic-size-two-field" value="До 2 х 3">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -415,7 +415,7 @@
                 <li class="fields__item">
                   <label class="fields__card card" for="automatic-size-three-field">
                     <input class="card__checkbox visually-hidden" type="radio" name="automatic-size"
-                      id="automatic-size-three-field">
+                      id="automatic-size-three-field" value="До 3 х 2">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -434,7 +434,7 @@
                 <li class="fields__item">
                   <label class="fields__card card" for="automatic-size-four-field">
                     <input class="card__checkbox visually-hidden" type="radio" name="automatic-size"
-                      id="automatic-size-four-field">
+                      id="automatic-size-four-field" value="До 3 х 3">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -453,7 +453,7 @@
                 <li class="fields__item">
                   <label class="fields__card card" for="automatic-size-five-field">
                     <input class="card__checkbox visually-hidden" type="radio" name="automatic-size"
-                      id="automatic-size-five-field">
+                      id="automatic-size-five-field" value="До 3 х 4">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -472,7 +472,7 @@
                 <li class="fields__item">
                   <label class="fields__card card" for="automatic-size-six-field">
                     <input class="card__checkbox visually-hidden" type="radio" name="automatic-size"
-                      id="automatic-size-six-field">
+                      id="automatic-size-six-field" value="До 4 х 4">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -491,7 +491,7 @@
                 <li class="fields__item">
                   <label class="fields__card card" for="automatic-size-seven-field">
                     <input class="card__checkbox visually-hidden" type="radio" name="automatic-size"
-                      id="automatic-size-seven-field">
+                      id="automatic-size-seven-field" value="Более 4 х 4">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -626,8 +626,8 @@
 
                 <li class="fields__item">
                   <label class="fields__card card" for="automatic-firm-one-field">
-                    <input class="card__checkbox visually-hidden" type="checkbox" name="automatic-firm-one"
-                      id="automatic-firm-one-field">
+                    <input class="card__checkbox visually-hidden" type="checkbox" name="automatic-firm[0]"
+                      id="automatic-firm-one-field" value="Фирма номер один">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -645,8 +645,8 @@
 
                 <li class="fields__item">
                   <label class="fields__card card" for="automatic-firm-two-field">
-                    <input class="card__checkbox visually-hidden" type="checkbox" name="automatic-firm-two"
-                      id="automatic-firm-two-field">
+                    <input class="card__checkbox visually-hidden" type="checkbox" name="automatic-firm[1]"
+                      id="automatic-firm-two-field" value="Фирма номер два">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -664,8 +664,8 @@
 
                 <li class="fields__item">
                   <label class="fields__card card" for="automatic-firm-three-field">
-                    <input class="card__checkbox visually-hidden" type="checkbox" name="automatic-firm-three"
-                      id="automatic-firm-three-field">
+                    <input class="card__checkbox visually-hidden" type="checkbox" name="automatic-firm[2]"
+                      id="automatic-firm-three-field" value="Фирма номер три">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -683,8 +683,8 @@
 
                 <li class="fields__item">
                   <label class="fields__card card" for="automatic-firm-four-field">
-                    <input class="card__checkbox visually-hidden" type="checkbox" name="automatic-firm-four"
-                      id="automatic-firm-four-field">
+                    <input class="card__checkbox visually-hidden" type="checkbox" name="automatic-firm[3]"
+                      id="automatic-firm-four-field" value="Фирма номер четыре">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -702,8 +702,8 @@
 
                 <li class="fields__item">
                   <label class="fields__card card" for="automatic-firm-five-field">
-                    <input class="card__checkbox visually-hidden" type="checkbox" name="automatic-firm-five"
-                      id="automatic-firm-five-field">
+                    <input class="card__checkbox visually-hidden" type="checkbox" name="automatic-firm[4]"
+                      id="automatic-firm-five-field" value="Фирма номер пять">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -721,8 +721,8 @@
 
                 <li class="fields__item">
                   <label class="fields__card card" for="automatic-firm-six-field">
-                    <input class="card__checkbox visually-hidden" type="checkbox" name="automatic-firm-six"
-                      id="automatic-firm-six-field">
+                    <input class="card__checkbox visually-hidden" type="checkbox" name="automatic-firm[5]"
+                      id="automatic-firm-six-field" value="Фирма номер шесть">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -740,8 +740,8 @@
 
                 <li class="fields__item">
                   <label class="fields__card card" for="automatic-firm-seven-field">
-                    <input class="card__checkbox visually-hidden" type="checkbox" name="automatic-firm-seven"
-                      id="automatic-firm-seven-field">
+                    <input class="card__checkbox visually-hidden" type="checkbox" name="automatic-firm[6]"
+                      id="automatic-firm-seven-field" value="Нужен совет">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -872,12 +872,12 @@
 
             <div class="content__fields fields fields--card">
 
-              <ul class="fields__list">
+              <ul class="fields__list fields__list--scroll">
 
                 <li class="fields__item">
                   <label class="fields__card card" for="automatic-accessories-one-field">
-                    <input class="card__checkbox visually-hidden" type="checkbox" name="automatic-accessories-one"
-                      id="automatic-accessories-one-field">
+                    <input class="card__checkbox visually-hidden" type="checkbox" name="automatic-accessories[0]"
+                      id="automatic-accessories-one-field" value="Фотоэлементы">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -896,8 +896,8 @@
 
                 <li class="fields__item">
                   <label class="fields__card card" for="automatic-accessories-two-field">
-                    <input class="card__checkbox visually-hidden" type="checkbox" name="automatic-accessories-two"
-                      id="automatic-accessories-two-field">
+                    <input class="card__checkbox visually-hidden" type="checkbox" name="automatic-accessories[1]"
+                      id="automatic-accessories-two-field" value="Магнитный замок">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -916,8 +916,8 @@
 
                 <li class="fields__item">
                   <label class="fields__card card" for="automatic-accessories-three-field">
-                    <input class="card__checkbox visually-hidden" type="checkbox" name="automatic-accessories-three"
-                      id="automatic-accessories-three-field">
+                    <input class="card__checkbox visually-hidden" type="checkbox" name="automatic-accessories[2]"
+                      id="automatic-accessories-three-field" value="Антена">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -936,8 +936,8 @@
 
                 <li class="fields__item">
                   <label class="fields__card card" for="automatic-accessories-four-field">
-                    <input class="card__checkbox visually-hidden" type="checkbox" name="automatic-accessories-four"
-                      id="automatic-accessories-four-field">
+                    <input class="card__checkbox visually-hidden" type="checkbox" name="automatic-accessories[3]"
+                      id="automatic-accessories-four-field" value="Сигнальная лампа">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -956,8 +956,8 @@
 
                 <li class="fields__item">
                   <label class="fields__card card" for="automatic-accessories-five-field">
-                    <input class="card__checkbox visually-hidden" type="checkbox" name="automatic-accessories-five"
-                      id="automatic-accessories-five-field">
+                    <input class="card__checkbox visually-hidden" type="checkbox" name="automatic-accessories[4]"
+                      id="automatic-accessories-five-field" value="Доп. пульт">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -976,8 +976,8 @@
 
                 <li class="fields__item">
                   <label class="fields__card card" for="automatic-accessories-six-field">
-                    <input class="card__checkbox visually-hidden" type="checkbox" name="automatic-accessories-six"
-                      id="automatic-accessories-six-field">
+                    <input class="card__checkbox visually-hidden" type="checkbox" name="automatic-accessories[5]"
+                      id="automatic-accessories-six-field" value="GSM модуль">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -1114,7 +1114,7 @@
                 <li class="fields__item">
                   <label class="fields__card card" for="automatic-time-one-field">
                     <input class="card__checkbox visually-hidden" type="radio" name="automatic-time"
-                      id="automatic-time-one-field">
+                      id="automatic-time-one-field" value="В ближайшее время">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -1133,7 +1133,7 @@
                 <li class="fields__item">
                   <label class="fields__card card" for="automatic-time-two-field">
                     <input class="card__checkbox visually-hidden" type="radio" name="automatic-time"
-                      id="automatic-time-two-field">
+                      id="automatic-time-two-field" value="Через неделю">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -1152,7 +1152,7 @@
                 <li class="fields__item">
                   <label class="fields__card card" for="automatic-time-three-field">
                     <input class="card__checkbox visually-hidden" type="radio" name="automatic-time"
-                      id="automatic-time-three-field">
+                      id="automatic-time-three-field" value="Через месяц">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -1171,7 +1171,7 @@
                 <li class="fields__item">
                   <label class="fields__card card" for="automatic-time-four-field">
                     <input class="card__checkbox visually-hidden" type="radio" name="automatic-time"
-                      id="automatic-time-four-field">
+                      id="automatic-time-four-field" value="Как получится">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -1285,8 +1285,9 @@
         <div class="complete__contacts contacts">
 
           <p class="contacts__title">Ваш телефон</p>
-          <label class="contacts__label" for="">
-            <input class="contacts__tel" type="tel" name="" id="" placeholder="+7 (976) 273-12-81" required>
+          <label class="contacts__label" for="phone-field">
+            <input class="contacts__tel" type="tel" name="phone" id="phone-field" placeholder="+7 (976) 273-12-81"
+              required>
           </label>
 
           <p class="contacts__title">Удобный способ для связи</p>

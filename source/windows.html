@@ -197,13 +197,13 @@
               <p class="content__info">Только один вариант</p>
             </div>
 
-            <div class="content__fields fields">
+            <div class="content__fields fields fields__list--scroll">
 
               <ul class="fields__list">
                 <li class="fields__item">
                   <label class="fields__card card" for="windows-type-one-field">
                     <input class="card__checkbox visually-hidden" type="radio" name="windows-type"
-                      id="windows-type-one-field">
+                      id="windows-type-one-field" value="Окно">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -222,7 +222,7 @@
                 <li class="fields__item">
                   <label class="fields__card card" for="windows-type-two-field">
                     <input class="card__checkbox visually-hidden" type="radio" name="windows-type"
-                      id="windows-type-two-field">
+                      id="windows-type-two-field" value="Окно и Дверь">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -241,7 +241,7 @@
                 <li class="fields__item">
                   <label class="fields__card card" for="windows-type-three-field">
                     <input class="card__checkbox visually-hidden" type="radio" name="windows-type"
-                      id="windows-type-three-field">
+                      id="windows-type-three-field" value="Балкон">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -260,7 +260,7 @@
                 <li class="fields__item">
                   <label class="fields__card card" for="windows-type-four-field">
                     <input class="card__checkbox visually-hidden" type="radio" name="windows-type"
-                      id="windows-type-four-field">
+                      id="windows-type-four-field" value="Несколько вариантов">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -379,7 +379,7 @@
                 d="M11.2578 6.77109C11.2582 7.13621 11.0428 7.46317 11.2782 8.16479C11.4118 8.56303 11.6837 8.95668 11.9311 9.1125C12.0686 8.98942 12.5645 8.42405 12.6472 8.2707C12.4728 8.00909 12.1421 7.65791 12.3894 7.08276C12.9005 5.89413 14.6729 6.53014 14.354 7.75022C14.2891 7.99817 14.1484 8.10865 14.0522 8.2707C14.2429 8.58736 14.5595 8.82831 14.7317 9.12049C15.2744 8.89637 16.0588 7.40649 15.0077 6.08514C14.9364 5.99549 14.9266 5.99109 14.8926 5.90701C14.5945 5.77525 14.4705 5.54241 13.9618 5.39083C13.0125 5.10794 12.0287 5.50929 11.5031 6.32784C11.447 6.41515 11.4222 6.46387 11.3778 6.5576L11.2578 6.77109Z"
                 fill="white" />
             </svg>
-            <p class="questions__description">Узнайте стоимость автоматики для ворот</p>
+            <p class="questions__description">Узнайте стоимость окон</p>
           </div>
 
           <div class="content">
@@ -395,8 +395,8 @@
 
                 <li class="fields__item">
                   <label class="fields__card card" for="windows-firm-one-field">
-                    <input class="card__checkbox visually-hidden" type="checkbox" name="windows-firm-one"
-                      id="windows-firm-one-field">
+                    <input class="card__checkbox visually-hidden" type="checkbox" name="windows-firm[0]"
+                      id="windows-firm-one-field" value="Профиль номер один">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -414,8 +414,8 @@
 
                 <li class="fields__item">
                   <label class="fields__card card" for="windows-firm-two-field">
-                    <input class="card__checkbox visually-hidden" type="checkbox" name="windows-firm-two"
-                      id="windows-firm-two-field">
+                    <input class="card__checkbox visually-hidden" type="checkbox" name="windows-firm[1]"
+                      id="windows-firm-two-field" value="Профиль номер два">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -433,8 +433,8 @@
 
                 <li class="fields__item">
                   <label class="fields__card card" for="windows-firm-three-field">
-                    <input class="card__checkbox visually-hidden" type="checkbox" name="windows-firm-three"
-                      id="windows-firm-three-field">
+                    <input class="card__checkbox visually-hidden" type="checkbox" name="windows-firm[2]"
+                      id="windows-firm-three-field" value="Профиль номер три">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -452,8 +452,8 @@
 
                 <li class="fields__item">
                   <label class="fields__card card" for="windows-firm-four-field">
-                    <input class="card__checkbox visually-hidden" type="checkbox" name="windows-firm-four"
-                      id="windows-firm-four-field">
+                    <input class="card__checkbox visually-hidden" type="checkbox" name="windows-firm[3]"
+                      id="windows-firm-four-field" value="Профиль номер четыре">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -471,8 +471,8 @@
 
                 <li class="fields__item">
                   <label class="fields__card card" for="windows-firm-five-field">
-                    <input class="card__checkbox visually-hidden" type="checkbox" name="windows-firm-five"
-                      id="windows-firm-five-field">
+                    <input class="card__checkbox visually-hidden" type="checkbox" name="windows-firm[4]"
+                      id="windows-firm-five-field" value="Профиль номер пять">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -490,8 +490,8 @@
 
                 <li class="fields__item">
                   <label class="fields__card card" for="windows-firm-six-field">
-                    <input class="card__checkbox visually-hidden" type="checkbox" name="windows-firm-seven"
-                      id="windows-firm-six-field">
+                    <input class="card__checkbox visually-hidden" type="checkbox" name="windows-firm[5]"
+                      id="windows-firm-six-field" value="Нужен совет">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -610,13 +610,13 @@
                 d="M11.2578 6.77109C11.2582 7.13621 11.0428 7.46317 11.2782 8.16479C11.4118 8.56303 11.6837 8.95668 11.9311 9.1125C12.0686 8.98942 12.5645 8.42405 12.6472 8.2707C12.4728 8.00909 12.1421 7.65791 12.3894 7.08276C12.9005 5.89413 14.6729 6.53014 14.354 7.75022C14.2891 7.99817 14.1484 8.10865 14.0522 8.2707C14.2429 8.58736 14.5595 8.82831 14.7317 9.12049C15.2744 8.89637 16.0588 7.40649 15.0077 6.08514C14.9364 5.99549 14.9266 5.99109 14.8926 5.90701C14.5945 5.77525 14.4705 5.54241 13.9618 5.39083C13.0125 5.10794 12.0287 5.50929 11.5031 6.32784C11.447 6.41515 11.4222 6.46387 11.3778 6.5576L11.2578 6.77109Z"
                 fill="white" />
             </svg>
-            <p class="questions__description">Узнайте стоимость ворот </p>
+            <p class="questions__description">Узнайте стоимость окон</p>
           </div>
 
           <div class="content">
 
             <div class="content__wrapper">
-              <h2 class="content__title">Какой размер ворот?</h2>
+              <h2 class="content__title">Выберите цвет</h2>
               <p class="content__info">Только один вариант</p>
             </div>
 
@@ -625,9 +625,9 @@
               <ul class="fields__list">
 
                 <li class="fields__item">
-                  <label class="fields__card card" for="windows-size-one-field">
-                    <input class="card__checkbox visually-hidden" type="radio" name="windows-size"
-                      id="windows-size-one-field">
+                  <label class="fields__card card" for="windows-color-one-field">
+                    <input class="card__checkbox visually-hidden" type="radio" name="windows-color"
+                      id="windows-color-one-field" value="Ламинация">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -644,9 +644,9 @@
                 </li>
 
                 <li class="fields__item">
-                  <label class="fields__card card" for="windows-size-two-field">
-                    <input class="card__checkbox visually-hidden" type="radio" name="windows-size"
-                      id="windows-size-two-field">
+                  <label class="fields__card card" for="windows-color-two-field">
+                    <input class="card__checkbox visually-hidden" type="radio" name="windows-color"
+                      id="windows-color-two-field" value="Белый">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -777,11 +777,11 @@
 
             <div class="content__fields fields">
 
-              <ul class="fields__list">
+              <ul class="fields__list fields__list--scroll">
                 <li class="fields__item">
                   <label class="fields__card card" for="windows-options-one-field">
-                    <input class="card__checkbox visually-hidden" type="checkbox" name="windows-options-one"
-                      id="windows-options-one-field">
+                    <input class="card__checkbox visually-hidden" type="checkbox" name="windows-options[0]"
+                      id="windows-options-one-field" value="Стекло">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -799,8 +799,8 @@
                 </li>
                 <li class="fields__item">
                   <label class="fields__card card" for="windows-options-two-field">
-                    <input class="card__checkbox visually-hidden" type="checkbox" name="windows-options-two"
-                      id="windows-options-two-field">
+                    <input class="card__checkbox visually-hidden" type="checkbox" name="windows-options[1]"
+                      id="windows-options-two-field" value="Однокамерный стеклопакет">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -818,8 +818,8 @@
                 </li>
                 <li class="fields__item">
                   <label class="fields__card card" for="windows-options-three-field">
-                    <input class="card__checkbox visually-hidden" type="checkbox" name="windows-options-three"
-                      id="windows-options-three-field">
+                    <input class="card__checkbox visually-hidden" type="checkbox" name="windows-options[2]"
+                      id="windows-options-three-field" value="Двухкамерный стеклопакет">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -837,8 +837,8 @@
                 </li>
                 <li class="fields__item">
                   <label class="fields__card card" for="windows-options-four-field">
-                    <input class="card__checkbox visually-hidden" type="checkbox" name="windows-options-four"
-                      id="windows-options-four-field">
+                    <input class="card__checkbox visually-hidden" type="checkbox" name="windows-options[3]"
+                      id="windows-options-four-field" value="Трехкамерный стеклопакет">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -856,8 +856,8 @@
                 </li>
                 <li class="fields__item">
                   <label class="fields__card card" for="windows-options-five-field">
-                    <input class="card__checkbox visually-hidden" type="checkbox" name="windows-options-five"
-                      id="windows-options-five-field">
+                    <input class="card__checkbox visually-hidden" type="checkbox" name="windows-options[4]"
+                      id="windows-options-five-field" value="Нужен совет">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -991,9 +991,9 @@
               <ul class="fields__list">
 
                 <li class="fields__item">
-                  <label class="fields__card card" for="windows-need-one-field">
-                    <input class="card__checkbox visually-hidden" type="radio" name="windows-need"
-                      id="windows-need-one-field">
+                  <label class="fields__card card" for="windows-mounting-one-field">
+                    <input class="card__checkbox visually-hidden" type="radio" name="windows-mounting"
+                      id="windows-mounting-one-field" value="Монтаж по ГОСТ">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -1010,9 +1010,9 @@
                 </li>
 
                 <li class="fields__item">
-                  <label class="fields__card card" for="windows-need-two-field">
-                    <input class="card__checkbox visually-hidden" type="radio" name="windows-need"
-                      id="windows-need-two-field">
+                  <label class="fields__card card" for="windows-mounting-two-field">
+                    <input class="card__checkbox visually-hidden" type="radio" name="windows-mounting"
+                      id="windows-mounting-two-field" value="Простой монтаж">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">

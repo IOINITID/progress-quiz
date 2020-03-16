@@ -187,7 +187,7 @@
                 d="M11.2578 6.77109C11.2582 7.13621 11.0428 7.46317 11.2782 8.16479C11.4118 8.56303 11.6837 8.95668 11.9311 9.1125C12.0686 8.98942 12.5645 8.42405 12.6472 8.2707C12.4728 8.00909 12.1421 7.65791 12.3894 7.08276C12.9005 5.89413 14.6729 6.53014 14.354 7.75022C14.2891 7.99817 14.1484 8.10865 14.0522 8.2707C14.2429 8.58736 14.5595 8.82831 14.7317 9.12049C15.2744 8.89637 16.0588 7.40649 15.0077 6.08514C14.9364 5.99549 14.9266 5.99109 14.8926 5.90701C14.5945 5.77525 14.4705 5.54241 13.9618 5.39083C13.0125 5.10794 12.0287 5.50929 11.5031 6.32784C11.447 6.41515 11.4222 6.46387 11.3778 6.5576L11.2578 6.77109Z"
                 fill="white" />
             </svg>
-            <p class="questions__description">Узнайте стоимость жалюзей</p>
+            <p class="questions__description">Узнайте стоимость видеонаблюдения</p>
           </div>
 
           <div class="content">
@@ -203,8 +203,8 @@
 
                 <li class="fields__item">
                   <label class="fields__card card" for="video-place-one-field">
-                    <input class="card__checkbox visually-hidden" type="checkbox" name="video-place-one"
-                      id="video-place-one-field">
+                    <input class="card__checkbox visually-hidden" type="checkbox" name="video-place[0]"
+                      id="video-place-one-field" value="Квартира">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -222,8 +222,8 @@
 
                 <li class="fields__item">
                   <label class="fields__card card" for="video-place-two-field">
-                    <input class="card__checkbox visually-hidden" type="checkbox" name="video-place-two"
-                      id="video-place-two-field">
+                    <input class="card__checkbox visually-hidden" type="checkbox" name="video-place[1]"
+                      id="video-place-two-field" value="Частный дом/дома">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -241,8 +241,8 @@
 
                 <li class="fields__item">
                   <label class="fields__card card" for="video-place-three-field">
-                    <input class="card__checkbox visually-hidden" type="checkbox" name="video-place-three"
-                      id="video-place-three-field">
+                    <input class="card__checkbox visually-hidden" type="checkbox" name="video-place[2]"
+                      id="video-place-three-field" value="Магазин">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -260,8 +260,8 @@
 
                 <li class="fields__item">
                   <label class="fields__card card" for="video-place-four-field">
-                    <input class="card__checkbox visually-hidden" type="checkbox" name="video-place-four"
-                      id="video-place-four-field">
+                    <input class="card__checkbox visually-hidden" type="checkbox" name="video-place[3]"
+                      id="video-place-four-field" value="Офис">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -279,8 +279,8 @@
 
                 <li class="fields__item">
                   <label class="fields__card card" for="video-place-five-field">
-                    <input class="card__checkbox visually-hidden" type="checkbox" name="video-place-five"
-                      id="video-place-five-field">
+                    <input class="card__checkbox visually-hidden" type="checkbox" name="video-place[4]"
+                      id="video-place-five-field" value="Производство">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -298,8 +298,8 @@
 
                 <li class="fields__item">
                   <label class="fields__card card" for="video-place-six-field">
-                    <input class="card__checkbox visually-hidden" type="checkbox" name="video-place-six"
-                      id="video-place-six-field">
+                    <input class="card__checkbox visually-hidden" type="checkbox" name="video-place[5]"
+                      id="video-place-six-field" value="Кафе/Ресторан">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -317,8 +317,8 @@
 
                 <li class="fields__item">
                   <label class="fields__card card" for="video-place-seven-field">
-                    <input class="card__checkbox visually-hidden" type="checkbox" name="video-place-six"
-                      id="video-place-seven-field">
+                    <input class="card__checkbox visually-hidden" type="checkbox" name="video-place[6]"
+                      id="video-place-seven-field" value="Другой объект">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -437,7 +437,7 @@
                 d="M11.2578 6.77109C11.2582 7.13621 11.0428 7.46317 11.2782 8.16479C11.4118 8.56303 11.6837 8.95668 11.9311 9.1125C12.0686 8.98942 12.5645 8.42405 12.6472 8.2707C12.4728 8.00909 12.1421 7.65791 12.3894 7.08276C12.9005 5.89413 14.6729 6.53014 14.354 7.75022C14.2891 7.99817 14.1484 8.10865 14.0522 8.2707C14.2429 8.58736 14.5595 8.82831 14.7317 9.12049C15.2744 8.89637 16.0588 7.40649 15.0077 6.08514C14.9364 5.99549 14.9266 5.99109 14.8926 5.90701C14.5945 5.77525 14.4705 5.54241 13.9618 5.39083C13.0125 5.10794 12.0287 5.50929 11.5031 6.32784C11.447 6.41515 11.4222 6.46387 11.3778 6.5576L11.2578 6.77109Z"
                 fill="white" />
             </svg>
-            <p class="questions__description">Узнайте стоимость жалюзей</p>
+            <p class="questions__description">Узнайте стоимость видеонаблюдения</p>
           </div>
 
           <div class="content">
@@ -449,11 +449,11 @@
 
             <div class="content__fields fields">
 
-              <ul class="fields__list">
+              <ul class="fields__list fields__list--scroll">
                 <li class="fields__item">
                   <label class="fields__card card" for="video-type-one-field">
                     <input class="card__checkbox visually-hidden" type="radio" name="video-type"
-                      id="video-type-one-field">
+                      id="video-type-one-field" value="Минимальное">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -472,7 +472,7 @@
                 <li class="fields__item">
                   <label class="fields__card card" for="video-type-two-field">
                     <input class="card__checkbox visually-hidden" type="radio" name="video-type"
-                      id="video-type-two-field">
+                      id="video-type-two-field" value="Среднее">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -491,7 +491,7 @@
                 <li class="fields__item">
                   <label class="fields__card card" for="video-type-three-field">
                     <input class="card__checkbox visually-hidden" type="radio" name="video-type"
-                      id="video-type-three-field">
+                      id="video-type-three-field" value="Высокое">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -610,7 +610,7 @@
                 d="M11.2578 6.77109C11.2582 7.13621 11.0428 7.46317 11.2782 8.16479C11.4118 8.56303 11.6837 8.95668 11.9311 9.1125C12.0686 8.98942 12.5645 8.42405 12.6472 8.2707C12.4728 8.00909 12.1421 7.65791 12.3894 7.08276C12.9005 5.89413 14.6729 6.53014 14.354 7.75022C14.2891 7.99817 14.1484 8.10865 14.0522 8.2707C14.2429 8.58736 14.5595 8.82831 14.7317 9.12049C15.2744 8.89637 16.0588 7.40649 15.0077 6.08514C14.9364 5.99549 14.9266 5.99109 14.8926 5.90701C14.5945 5.77525 14.4705 5.54241 13.9618 5.39083C13.0125 5.10794 12.0287 5.50929 11.5031 6.32784C11.447 6.41515 11.4222 6.46387 11.3778 6.5576L11.2578 6.77109Z"
                 fill="white" />
             </svg>
-            <p class="questions__description">Узнайте стоимость жалюзей</p>
+            <p class="questions__description">Узнайте стоимость видеонаблюдения</p>
           </div>
 
           <div class="content">
@@ -626,8 +626,8 @@
 
                 <li class="fields__item">
                   <label class="fields__card card" for="video-task-one-field">
-                    <input class="card__checkbox visually-hidden" type="checkbox" name="video-task-one"
-                      id="video-task-one-field">
+                    <input class="card__checkbox visually-hidden" type="checkbox" name="video-task[0]"
+                      id="video-task-one-field" value="Съёмка в темноте">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -645,8 +645,8 @@
 
                 <li class="fields__item">
                   <label class="fields__card card" for="video-task-two-field">
-                    <input class="card__checkbox visually-hidden" type="checkbox" name="video-task-two"
-                      id="video-task-two-field">
+                    <input class="card__checkbox visually-hidden" type="checkbox" name="video-task[1]"
+                      id="video-task-two-field" value="Распознование лиц">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -664,8 +664,8 @@
 
                 <li class="fields__item">
                   <label class="fields__card card" for="video-task-three-field">
-                    <input class="card__checkbox visually-hidden" type="checkbox" name="video-task-three"
-                      id="video-task-three-field">
+                    <input class="card__checkbox visually-hidden" type="checkbox" name="video-task[2]"
+                      id="video-task-three-field" value="Распознование ноеров авто">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -683,8 +683,8 @@
 
                 <li class="fields__item">
                   <label class="fields__card card" for="video-task-four-field">
-                    <input class="card__checkbox visually-hidden" type="checkbox" name="video-task-four"
-                      id="video-task-four-field">
+                    <input class="card__checkbox visually-hidden" type="checkbox" name="video-task[3]"
+                      id="video-task-four-field" value="Распознование купюр">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -702,8 +702,8 @@
 
                 <li class="fields__item">
                   <label class="fields__card card" for="video-task-five-field">
-                    <input class="card__checkbox visually-hidden" type="checkbox" name="video-task-five"
-                      id="video-task-five-field">
+                    <input class="card__checkbox visually-hidden" type="checkbox" name="video-task[4]"
+                      id="video-task-five-field" value="Оповещение о движении">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -721,8 +721,8 @@
 
                 <li class="fields__item">
                   <label class="fields__card card" for="video-task-six-field">
-                    <input class="card__checkbox visually-hidden" type="checkbox" name="video-task-six"
-                      id="video-task-six-field">
+                    <input class="card__checkbox visually-hidden" type="checkbox" name="video-task[5]"
+                      id="video-task-six-field" value="Хранение архивов записей">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -740,8 +740,8 @@
 
                 <li class="fields__item">
                   <label class="fields__card card" for="video-task-seven-field">
-                    <input class="card__checkbox visually-hidden" type="checkbox" name="video-task-seven"
-                      id="video-task-seven-field">
+                    <input class="card__checkbox visually-hidden" type="checkbox" name="video-task[6]"
+                      id="video-task-seven-field" value="Просмотр через интернет">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -759,8 +759,8 @@
 
                 <li class="fields__item">
                   <label class="fields__card card" for="video-task-eight-field">
-                    <input class="card__checkbox visually-hidden" type="checkbox" name="video-task-eight"
-                      id="video-task-eight-field">
+                    <input class="card__checkbox visually-hidden" type="checkbox" name="video-task[7]"
+                      id="video-task-eight-field" value="Нужен совет">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -879,7 +879,7 @@
                 d="M11.2578 6.77109C11.2582 7.13621 11.0428 7.46317 11.2782 8.16479C11.4118 8.56303 11.6837 8.95668 11.9311 9.1125C12.0686 8.98942 12.5645 8.42405 12.6472 8.2707C12.4728 8.00909 12.1421 7.65791 12.3894 7.08276C12.9005 5.89413 14.6729 6.53014 14.354 7.75022C14.2891 7.99817 14.1484 8.10865 14.0522 8.2707C14.2429 8.58736 14.5595 8.82831 14.7317 9.12049C15.2744 8.89637 16.0588 7.40649 15.0077 6.08514C14.9364 5.99549 14.9266 5.99109 14.8926 5.90701C14.5945 5.77525 14.4705 5.54241 13.9618 5.39083C13.0125 5.10794 12.0287 5.50929 11.5031 6.32784C11.447 6.41515 11.4222 6.46387 11.3778 6.5576L11.2578 6.77109Z"
                 fill="white" />
             </svg>
-            <p class="questions__description">Узнайте стоимость жалюзей</p>
+            <p class="questions__description">Узнайте стоимость видеонаблюдения</p>
           </div>
 
           <div class="content">
@@ -896,7 +896,7 @@
                 <li class="fields__item">
                   <label class="fields__card card" for="video-time-one-field">
                     <input class="card__checkbox visually-hidden" type="radio" name="video-time"
-                      id="video-time-one-field">
+                      id="video-time-one-field" value="В ближайшее время">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -915,7 +915,7 @@
                 <li class="fields__item">
                   <label class="fields__card card" for="video-time-two-field">
                     <input class="card__checkbox visually-hidden" type="radio" name="video-time"
-                      id="video-time-two-field">
+                      id="video-time-two-field" value="Через неделю">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -934,7 +934,7 @@
                 <li class="fields__item">
                   <label class="fields__card card" for="video-time-three-field">
                     <input class="card__checkbox visually-hidden" type="radio" name="video-time"
-                      id="video-time-three-field">
+                      id="video-time-three-field" value="Через месяц">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -953,7 +953,7 @@
                 <li class="fields__item">
                   <label class="fields__card card" for="video-time-four-field">
                     <input class="card__checkbox visually-hidden" type="radio" name="video-time"
-                      id="video-time-four-field">
+                      id="video-time-four-field" value="Как получится">
                     <span class="card__check">
                       <svg class="card__icon" width="16" height="13" viewBox="0 0 16 13" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
